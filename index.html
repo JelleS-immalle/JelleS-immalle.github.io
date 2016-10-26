@@ -2,49 +2,130 @@
 <html>
 <head>
 <title>GIP-website J. Swaelen</title>
-<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bangers|Oswald" rel="stylesheet">
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" type="text/css" href="balloon.css">
 <style>
 
 body{
-	margin: 0em, 0.5em, 0em, 0.5em;
+	margin: 0em 0.5em;
 }
 
-#header{
+#headerGip{
+	width: 70%;
+	min-width: 50%;
+	max-width: 70%;
+	height: 20em;
+	margin-left: auto;
+	margin-right: auto;
+
+	background-image: url("img/header-wallpaper.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 20px;
+	transition: 1s;
+}
+
+#headerGip:hover{
+	background-image: url("img/header-wallpaper.jpg");
+	opacity: 0.9;
+	transition: 1s;
+}
+
+#headerGip-Text{
+	padding: 0.15em;
+	text-align: center;
+	font-family: Bangers;
+	letter-spacing: 2px;
+	color: #90CC90;
+	text-shadow: 2px 2px #000; 
+	font-size: 50px;
+}
+
+#footerGip{
+	display: inline-block;
+	margin-top: 1em;
+	background-color: ;
 	width: 100%;
+	height: 1.2em;
+	text-align: center;
 }
 
-#header h1{
-	height: 1.2em;
-	background-color:grey;
-	margin: 0em;
+#footerGip-Text{
+	font-family: Oswald;
+	font-size: 15px;
+	color: #888;
+}
+
+#profielFoto{
+	width: 200px;
+	height: 200px;
+	opacity: 10;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	background: url(img/foto-js.png) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 0 0 9px rgba(0, 0, 0, 0.8);
+	background-size: 122%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#middenGip{
+
+}
+
+#middenGip-1-3{
+	margin: 1em 0em;
 	border-radius: 10px;
-	text-align: center;
-	font-family: Concert One;
-	font-size: 33px;
+	font-size: 20px;
+	font-family: Oswald;
 }
 
-#footer{
-	position: block;
-	background-color: black;
-	width: 100%;
-	height: 1.2em;
-	text-align: center;
-}
+#middenGip-1-3 > img{
+	background-image: url(img/grid.jpg);
+	zoom: 2;
+    display: block;
+    border-radius: 90px;
 
-#footer p{
-	font-color: grey;
+    margin: auto;
+    max-width: 40%;
+    max-height: 40%;
+    height: auto;
+    max-height: 40%;
+    max-width: 40%;
+    width: auto;
+
+    border: 2px solid transparent;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
 </style>
 </head>
 <body>
 
-<div id="header">
-	<h1>GIP-website Jelle Swaelen</h1>
+<div id="headerGip">
+	<h1 id=headerGip-Text>GIP-website <div id="profielFoto" data-balloon="Welkom!" data-balloon-pos="left"></div>Jelle Swaelen</h1>
 </div>
 
-<div id="footer">
-	<p>GIP-website 2016</p>
+<div id="middenGip" class="pure-g">
+	<div id="middenGip-1-3" class="pure-u-1-3">
+		<p>Op deze website komen alle taken in verband met de GIP.</p>
+	</div>
+	<div id="middenGip-1-3" class="pure-u-1-3">
+		<img src="img/grid.jpg"/>
+	</div>
+	<div id="middenGip-1-3" class="pure-u-1-3">
+		<p>De website zal doorheen het jaar bewerkt en verbeterd worden.</p>
+	</div>
+</div>
+
+<div id="footerGip">
+	<p id="footerGip-Text">GIP-website 2016</p>
 </div>
 
 </body>
