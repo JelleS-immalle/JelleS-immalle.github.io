@@ -3,12 +3,12 @@
 <head>
 <title>GIP-website J. Swaelen</title>
 <link href="https://fonts.googleapis.com/css?family=Bangers|Oswald" rel="stylesheet">
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/pure/0.6.0/pure-min.css">
 <link rel="stylesheet" type="text/css" href="balloon.css">
 <style>
 
-body{
-	margin: 0em 0.5em;
+html, body{
+	margin: 0em;
 }
 
 #headerGip{
@@ -38,24 +38,31 @@ body{
 	text-align: center;
 	font-family: Bangers;
 	letter-spacing: 2px;
-	color: #90CC90;
+	color: rgba(144, 204, 144, 1);
 	text-shadow: 2px 2px #000; 
 	font-size: 50px;
 }
 
 #footerGip{
 	display: inline-block;
-	margin-top: 1em;
 	background-color: ;
 	width: 100%;
-	height: 1.2em;
+	height: 62px;
 	text-align: center;
+	margin: 1em auto 0em auto;
+	background-color: grey;
+	background-image: linear-gradient(
+		to left,
+		rgba(150, 200, 0, 0.3),
+		white);
+	width: 100%;
 }
 
 #footerGip-Text{
-	font-family: Oswald;
-	font-size: 15px;
+	font-family: Bangers;
 	color: #888;
+	text-shadow: 2px 2px #90CC90;
+	font-size: 20px;
 }
 
 #profielFoto{
@@ -75,7 +82,13 @@ body{
 }
 
 #middenGip{
-
+	margin: 1em auto;
+	background-color: grey;
+	background-image: linear-gradient(
+		to right,
+		rgba(150, 200, 0, 0.3),
+		white);
+	width: 100%;
 }
 
 #middenGip-1-3{
@@ -83,6 +96,7 @@ body{
 	border-radius: 10px;
 	font-size: 20px;
 	font-family: Oswald;
+	text-align: justify;
 }
 
 #middenGip-1-3 > img{
@@ -90,6 +104,7 @@ body{
 	zoom: 2;
     display: block;
     border-radius: 90px;
+    opacity: 0.8;
 
     margin: auto;
     max-width: 40%;
@@ -106,10 +121,10 @@ body{
 
 </style>
 </head>
-<body>
+<body onload="onloadShowMiddle()">
 
 <div id="headerGip">
-	<h1 id=headerGip-Text>GIP-website <div id="profielFoto" data-balloon="Welkom!" data-balloon-pos="left"></div>Jelle Swaelen</h1>
+	<h1 id="headerGip-Text">GIP-website <div id="profielFoto" data-balloon="Welkom!" data-balloon-pos="left"></div>Jelle Swaelen</h1>
 </div>
 
 <div id="middenGip" class="pure-g">
@@ -124,9 +139,9 @@ body{
 	</div>
 </div>
 
-<div id="footerGip">
+<footer id="footerGip">
 	<p id="footerGip-Text">GIP-website 2016</p>
-</div>
+</footer>
 
 </body>
 </html>
