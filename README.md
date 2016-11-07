@@ -9,3 +9,10 @@
 + Header verder afgewerkt en simpel effect toegevoegd
 + Middenstuk toegevoegd
 + Footer aangepast aan het thema van de website
+
+## 2016-11-6
+
++ Issue  #1 en #2 opgelost
++ Non breaking spaces toegevoegd aan mijn naam in de header en aan de inhoud van de footer
+
+[Als u mijn website wenst te bezoeken, klik dan hier.] (jelles-immalle.github.io)
