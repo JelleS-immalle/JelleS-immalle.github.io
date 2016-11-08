@@ -15,4 +15,8 @@
 + Issue  #1 en #2 opgelost
 + Non breaking spaces toegevoegd aan mijn naam in de header en aan de inhoud van de footer
 
+## 2016-11-8
+
++ Toevoeging van regen effect [Credits regen effect] (https://codepen.io/alemesre/pen/hAxGg) !werkt nog niet
+
 [Als u mijn website wenst te bezoeken, klik dan hier.] (jelles-immalle.github.io)
