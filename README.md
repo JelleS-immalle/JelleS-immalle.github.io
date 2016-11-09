@@ -17,6 +17,17 @@
 
 ## 2016-11-8
 
-+ Toevoeging van regen effect [Credits regen effect] (https://codepen.io/alemesre/pen/hAxGg) !werkt nog niet
++ Toevoeging van regen effect. [Credits regen effect](https://codepen.io/alemesre/pen/hAxGg) !werkt nog niet
 
-[Als u mijn website wenst te bezoeken, klik dan hier.] (jelles-immalle.github.io)
+## 2016-11-9
+
++ Toevoeging van een favicon
++ Link naar de website online toegevoegd aan de description
++ Tekstje Balloon.css toegevoegd
+
+### Informatie over de werking van balloon.css
+
+> Balloon.css is dus een CSS library die de mogelijkheid biedt om een tekstballon ergens te laten verschijnen wanneer er bijvoorbeeld wordt over gehoverd. (Je kan de tekstballon ook constant zichtbaar maken.)
+Door het gebruik van WebKit extensions worden er verschillende dingen aangepast die zorgen voor een animatie. Enkele voorbeelden zijn `-webkit-tranform: translate(...);`, dit zorgt dat de plaats van het element wordt aangepast en `-webkit-transition: all ...s ease ...s";` zorgt voor een vertraging tijdens het veranderen dat het niet direct verspringt, maar dat je het kan zien veranderen met een vloeiende beweging.
+
+[Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
