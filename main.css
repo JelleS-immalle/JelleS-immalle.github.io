@@ -1,6 +1,5 @@
 html, body{
 	margin: 0em;
-    overflow: hidden;
     height: 100%;
 }
 
@@ -13,7 +12,6 @@ html, body{
 	bottom:200px;
     -webkit-animation: fall 0.8s linear infinite;
     -moz-animation: fall 0.5s lineair infinite;
-  
 }
 
 /* animate the drops*/
@@ -114,8 +112,8 @@ header:hover{
     opacity: 0.8;
 
     margin: auto;
-    max-width: 40%;
-    max-height: 40%;
+    min-width: 40%;
+    min-height: 40%;
     height: auto;
     max-height: 40%;
     max-width: 40%;
@@ -141,4 +139,24 @@ header:hover{
     padding: 0.5em;
     border-radius: 30px;
     border: 2px solid #333;
+}
+
+#middenGip-1-4 > p{
+    font-family: Oswald;
+    margin: 1em 0em;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+
+#middenGip-1-4 > img{
+    display: block;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    height: auto;
+    max-height: 75%;
+    max-width: 75%;
+    width: auto;
+    border: 2px solid #C3C3C3;
 }

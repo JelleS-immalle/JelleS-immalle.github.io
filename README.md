@@ -36,4 +36,9 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 + Gedeelte toegevoegd waar knoppen komen om naar de taken en stage verslagen te gaan
 + Middenstukken zijn verandert in opmaak
 
+## 2016-11-11
+
++ Pagina's voor stageverslagen en GIP taken toegevoegd
++ Kleine veranderingen aan de opmaak van de drie html pagina's
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
