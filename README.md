@@ -33,7 +33,7 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 ## 2016-11-10
 
 + Afbeelding van mezelf is geoptimized qua bestandsgrootte
-+ Gedeelte toegevoegd waar knoppen komen om naar de taken en stage verslagen te gaan
++ Gedeelte toegevoegd waar knoppen komen om naar de taken en stageverslagen te gaan
 + Middenstukken zijn verandert in opmaak
 
 ## 2016-11-11
