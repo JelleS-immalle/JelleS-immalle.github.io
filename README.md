@@ -17,7 +17,7 @@
 
 ## 2016-11-8
 
-+ Toevoeging van regen effect. [Credits regen effect](https://codepen.io/alemesre/pen/hAxGg) !werkt nog niet
++ Toevoeging van regen effect. [Credits regen effect](https://codepen.io/alemesre/pen/hAxGg) !vervangen door [een ander effect](https://codepen.io/NickyCDK/pen/AIonk)
 
 ## 2016-11-9
 
@@ -40,5 +40,9 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 
 + Pagina's voor stageverslagen en GIP taken toegevoegd
 + Kleine veranderingen aan de opmaak van de drie html pagina's
+
+## 2016-11-16
+
++ Sneeuw effect toegevoegd over de header, [credits effect](https://codepen.io/NickyCDK/pen/AIonk)
 
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
