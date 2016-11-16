@@ -2,7 +2,6 @@ html, body{
 	margin: 0em;
     height: 100%;
 }
-
 .snow{
 	background-image: url('img/drop.png'), url('img/drop.png'), url('img/drop.png');
 	-webkit-animation: snow 15s linear infinite;
@@ -30,7 +29,6 @@ html, body{
   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }
-
 header{
 	width: 70%;
 	min-width: 50%;
@@ -46,13 +44,11 @@ header{
 	border-radius: 20px;
 	transition: 1s;
 }
-
 header:hover{
 	background-image: url("img/header-wallpaper.jpg");
 	opacity: 0.9;
 	transition: 1s;
 }
-
 #headerGip-Text{
 	padding: 0.15em;
 	text-align: center;
@@ -62,7 +58,6 @@ header:hover{
 	text-shadow: 2px 2px #000; 
 	font-size: 50px;
 }
-
 #footerGip{
 	display: inline-block;
 	background-color: ;
@@ -76,14 +71,12 @@ header:hover{
 		white);
 	width: 100%;
 }
-
 #footerGip-Text{
 	font-family: Bangers;
 	color: #222;
 	text-shadow: 2px 2px #90CC90;
 	font-size: 20px;
 }
-
 #profielFoto{
 	width: 200px;
 	height: 200px;
@@ -99,11 +92,9 @@ header:hover{
 	margin-left: auto;
 	margin-right: auto;
 }
-
 #middenGip{
 	margin: 1em auto;
 }
-
 #middenGip-1-3{
 	margin: 1em 0em;
 	font-size: 17px;
@@ -112,7 +103,6 @@ header:hover{
     -moz-text-align-last: center;
     text-align-last: center;
 }
-
 #middenGip-1-3 > img{
 	background-image: url(img/grid.jpg);
 	zoom: 2;
@@ -132,14 +122,12 @@ header:hover{
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
-
 #middenGip-1-2{
 	margin: 1em 0em;
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
 }
-
 #middenGip-1-2 > p > a{
 	font-size: 30px;
 	font-family: Bangers;
@@ -149,7 +137,6 @@ header:hover{
     border-radius: 30px;
     border: 2px solid #333;
 }
-
 #middenGip-1-4 > p{
     font-family: Oswald;
     margin: 1em 0em;
@@ -157,7 +144,6 @@ header:hover{
     -moz-text-align-last: center;
     text-align-last: center;
 }
-
 #middenGip-1-4 > img{
     display: block;
     margin: auto;
