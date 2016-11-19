@@ -55,7 +55,7 @@ header:hover{
 	font-family: Bangers;
 	letter-spacing: 2px;
 	color: rgba(144, 204, 144, 1);
-	text-shadow: 2px 2px #000; 
+	text-shadow: 2px 2px #000;
 	font-size: 50px;
 }
 #footerGip{
@@ -122,13 +122,13 @@ header:hover{
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
-#middenGip-1-2{
+#middenGip-menu{
 	margin: 1em 0em;
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
 }
-#middenGip-1-2 > p > a{
+#middenGip-menu > p > a{
 	font-size: 30px;
 	font-family: Bangers;
     color: #222;
@@ -136,6 +136,26 @@ header:hover{
     padding: 0.5em;
     border-radius: 30px;
     border: 2px solid #333;
+	letter-spacing: 1px;
+}
+#middenGip-menu-selected{
+	margin: 1em 0em;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+#middenGip-menu-selected > p > a{
+	font-size: 30px;
+	font-family: Bangers;
+    color: rgba(144, 204, 144, 1);
+	text-shadow: 1px 1.5px #000;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 30px;
+    border: 2px solid #000;
+	letter-spacing: 1px;
+    pointer-events: none;
+    cursor: default;
 }
 #middenGip-1-4 > p{
     font-family: Oswald;

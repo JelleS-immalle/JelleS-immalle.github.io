@@ -45,4 +45,10 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 
 + Sneeuw effect toegevoegd over de header, [credits effect](https://codepen.io/NickyCDK/pen/AIonk)
 
+## 2016-11-19
+
++ Menu aangepast met een highlighting die aangeeft op welke pagina je je bevindt
++ Class van het selected menu item aangepast zodat er niet meer op geklikt kan worden
++ Favicon en titel aangepast
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
