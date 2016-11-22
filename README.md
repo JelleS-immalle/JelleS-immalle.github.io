@@ -51,4 +51,8 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 + Class van het selected menu item aangepast zodat er niet meer op geklikt kan worden
 + Favicon en titel aangepast
 
+## 2016-11-22
+
++ Toevoeging van grotere grid boxen
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
