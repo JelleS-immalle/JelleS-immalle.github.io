@@ -92,10 +92,10 @@ header:hover{
 	margin-left: auto;
 	margin-right: auto;
 }
-#middenGip{
+.middenGip{
 	margin: 1em auto;
 }
-#middenGip-1-3{
+.middenGip-1-3 > p{
 	margin: 1em 0em;
 	font-size: 17px;
 	font-family: Oswald;
@@ -103,7 +103,7 @@ header:hover{
     -moz-text-align-last: center;
     text-align-last: center;
 }
-#middenGip-1-3 > img{
+.middenGip-1-3 > img{
 	background-image: url(img/grid.jpg);
 	zoom: 2;
     display: block;
@@ -122,13 +122,13 @@ header:hover{
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
-#middenGip-menu{
+.middenGip-menu{
 	margin: 1em 0em;
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
 }
-#middenGip-menu > p > a{
+.middenGip-menu > p > a{
 	font-size: 30px;
 	font-family: Bangers;
     color: #222;
@@ -138,13 +138,13 @@ header:hover{
     border: 2px solid #333;
 	letter-spacing: 1px;
 }
-#middenGip-menu-selected{
+.middenGip-menu-selected{
 	margin: 1em 0em;
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
 }
-#middenGip-menu-selected > p > a{
+.middenGip-menu-selected > p > a{
 	font-size: 30px;
 	font-family: Bangers;
     color: rgba(144, 204, 144, 1);
@@ -157,14 +157,20 @@ header:hover{
     pointer-events: none;
     cursor: default;
 }
-#middenGip-1-4 > p{
+.middenGip-1-4{
+	height: 20vh;
+	transition: 2s;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+.middenGip-1-4 > p{
     font-family: Oswald;
     margin: 1em 0em;
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
 }
-#middenGip-1-4 > img{
+.middenGip-1-4 > img{
     display: block;
     margin: auto;
     min-width: 50%;

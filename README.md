@@ -55,4 +55,9 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 
 + Toevoeging van grotere grid boxen
 
+## 2016-11-24
+
++ Foute id's verandert naar classes, alles zou zoals voor de verandering moeten werken
++ !!Onderverdeling verandert, maar moet nog aan gewerkt worden
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
