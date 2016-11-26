@@ -60,4 +60,10 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 + Foute id's verandert naar classes, alles zou zoals voor de verandering moeten werken
 + !!Onderverdeling verandert, maar moet nog aan gewerkt worden
 
+## 2016-11-26
+
++ Font Awesome emoticons toegevoegd
++ Onderverdeling taken verandert en er werkende functies/effecten aan gekoppeld
++ IT-Autobiografie toegevoegd met aangepaste opmaak, die hergebruikt kan worden voor andere taken
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)

@@ -158,8 +158,8 @@ header:hover{
     cursor: default;
 }
 .middenGip-1-4{
-	height: 20vh;
-	transition: 2s;
+	height: 25vh;
+	transition: 1.5s;
 	overflow-y: hidden;
 	overflow-x: hidden;
 }
@@ -178,6 +178,72 @@ header:hover{
     height: auto;
     max-height: 75%;
     max-width: 75%;
+    width: auto;
+    border: 2px solid #C3C3C3;
+}
+.middenGip-1-4-taak{
+	width: 100%;
+	overflow: hidden;
+}
+.middenGip-1-4-taak > h1{
+	cursor: pointer;
+    font-family: Oswald;
+    margin: 1em 0em;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+.middenGip-1-4-taak > p{
+	height: 0;
+
+    font-family: Oswald;
+    margin: 0;
+    padding: 0em 4em;
+    text-align: justify;
+    -moz-text-align-last: center;
+
+    opacity: 0;
+}
+.middenGip-1-4-taak > img{
+    display: block;
+    margin: auto;
+    min-width: 15%;
+    min-height: 15%;
+    height: auto;
+    max-height: 30%;
+    max-width: 30%;
+    width: auto;
+    border: 2px solid #C3C3C3;
+}
+.middenGip-1-4-taak-vergroot > h1{
+	cursor: pointer;
+    font-family: Oswald;
+    margin: 1em 0em;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+.middenGip-1-4-taak-vergroot > p{
+    font-family: Oswald;
+    margin: 0;
+    padding: 1em 15em;
+    text-align: justify;
+    -moz-text-align-last: center;
+
+    opacity: 1;
+    transition: opacity 2s ease-out;
+    -ms-transition: opacity 2s ease-out;
+    -moz-transition: opacity 2s ease-out;
+    -webkit-transition: opacity 2s ease-out;
+}
+.middenGip-1-4-taak-vergroot > img{
+    display: block;
+    margin: auto;
+    min-width: 25%;
+    min-height: 25%;
+    height: auto;
+    max-height: 50%;
+    max-width: 50%;
     width: auto;
     border: 2px solid #C3C3C3;
 }
