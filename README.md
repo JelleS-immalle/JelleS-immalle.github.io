@@ -66,4 +66,9 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 + Onderverdeling taken verandert en er werkende functies/effecten aan gekoppeld
 + IT-Autobiografie toegevoegd met aangepaste opmaak, die hergebruikt kan worden voor andere taken
 
+## 2016-11-27
+
++ Toevoeging instructiefilmpje IT-Tapa Office 365 en vermelding groepsleden
++ Issue #5 opgelost, Pure.css maakt ook gebruik van flexbox
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)

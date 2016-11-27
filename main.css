@@ -215,6 +215,13 @@ header:hover{
     width: auto;
     border: 2px solid #C3C3C3;
 }
+.middenGip-1-4-taak > video{
+    display: block;
+    margin: auto;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+}
 .middenGip-1-4-taak-vergroot > h1{
 	cursor: pointer;
     font-family: Oswald;
@@ -246,4 +253,29 @@ header:hover{
     max-width: 50%;
     width: auto;
     border: 2px solid #C3C3C3;
+}
+.middenGip-1-4-taak-vergroot > video{
+    visibility: visible;
+    display: block;
+    margin: auto;
+    max-height: 60%;
+    max-width: 60%;
+    min-height: 40%;
+    min-width: 40%;
+    height: auto;
+    width: auto;
+    border: rgba(144, 204, 144, 1) solid 0.1em;
+
+    opacity: 1;
+    transition: opacity 2s ease-out;
+    -ms-transition: opacity 2s ease-out;
+    -moz-transition: opacity 2s ease-out;
+    -webkit-transition: opacity 2s ease-out;
+}
+#vergrootVerklein2 > p, p > a{
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    color: inherit;
+    text-decoration: inherit;
 }
