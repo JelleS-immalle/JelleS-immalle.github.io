@@ -49,6 +49,30 @@ header:hover{
 	opacity: 0.9;
 	transition: 1s;
 }
+@media screen and (max-width: 720px){
+    header{
+        background-image: url();
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 2em;
+    }
+
+    .pure-u-1-3{
+        display: block;
+        margin: 1em auto !important;
+        width: 95%;
+    }
+
+    .pure-u-1-3 > p{
+        margin: 1em 0;
+    }
+}
+
+@media screen and (max-width: 366px){
+    header{
+        margin-bottom: 5.5em;
+    }
+}
+
 #headerGip-Text{
 	padding: 0.15em;
 	text-align: center;
@@ -233,7 +257,7 @@ header:hover{
 .middenGip-1-4-taak-vergroot > p{
     font-family: Oswald;
     margin: 0;
-    padding: 1em 15em;
+    padding: 1em 12em;
     text-align: justify;
     -moz-text-align-last: center;
 
@@ -272,10 +296,19 @@ header:hover{
     -moz-transition: opacity 2s ease-out;
     -webkit-transition: opacity 2s ease-out;
 }
+
+@media screen and (max-width: 960px){
+    .middenGip-1-4-taak-vergroot > p{
+        padding: 0.5em 3em;
+    }
+}
+
 #vergrootVerklein2 > p, p > a{
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
     color: inherit;
     text-decoration: inherit;
+
+    /* Aanpassing tekst in credits onderaan video IT-Tapa */
 }

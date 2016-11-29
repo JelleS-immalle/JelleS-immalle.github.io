@@ -71,4 +71,8 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 + Toevoeging instructiefilmpje IT-Tapa Office 365 en vermelding groepsleden
 + Issue #5 opgelost, Pure.css maakt ook gebruik van flexbox
 
+## 2016-11-29
+
++ Eerste optimalisaties toegevoegd voor mobiele apparaten
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
