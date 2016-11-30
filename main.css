@@ -357,6 +357,7 @@ header:hover{
 
 #onderGip > table {
     margin: 1em auto;
+    font-family: Oswald;
 }
 
 #onderGip > h1{
@@ -370,7 +371,7 @@ header:hover{
     font-size: 50px;
 }
 
-.pure-1-2 > a > img{
+#onderGip > div > div > a > img{
     display: block;
     margin: 0 auto;
     min-width: 20%;
@@ -381,6 +382,7 @@ header:hover{
     width: auto;
 }
 
-.onderGip-1-2{
-    margin: 0 auto;
+.onderGip-1 > p{
+    font-family: Oswald;
+    margin: 0.5em 3em;
 }
