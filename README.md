@@ -79,5 +79,6 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 
 + Issue 6 opgelost => Balloon element is nu onzichtbaar op mobiele apparaten
 + Toevoeging FAQ IT-Tapa en __onverbeterde__ versie welkomstwoord
++ Toevoeging eerst deel persoonlijke kennis (IT-Profile)
 
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)

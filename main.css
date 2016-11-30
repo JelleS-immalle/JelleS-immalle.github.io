@@ -354,3 +354,33 @@ header:hover{
 
     /* Deel van de text die meer moet opvallen */
 }
+
+#onderGip > table {
+    margin: 1em auto;
+}
+
+#onderGip > h1{
+    padding: 0.15em;
+    margin: 0.35em;
+    text-align: center;
+    font-family: Bangers;
+    letter-spacing: 2px;
+    color: rgba(144, 204, 144, 1);
+    text-shadow: 2px 2px #000;
+    font-size: 50px;
+}
+
+.pure-1-2 > a > img{
+    display: block;
+    margin: 0 auto;
+    min-width: 20%;
+    min-height: 20%;
+    height: auto;
+    max-height: 40%;
+    max-width: 40%;
+    width: auto;
+}
+
+.onderGip-1-2{
+    margin: 0 auto;
+}
