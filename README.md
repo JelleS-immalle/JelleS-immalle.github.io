@@ -81,4 +81,10 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 + Toevoeging FAQ IT-Tapa en __onverbeterde__ versie welkomstwoord
 + Toevoeging eerst deel persoonlijke kennis (IT-Profile)
 
+## 2016-12-1
+
++ Issue 7 opgelost => Welkomstwoord verbeterd
++ Probleem met overflow op taken.html opgelost
++ IT-Profile (PERSOONLIJKE KENNIS) verplaatst naar taken.html
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
