@@ -43,7 +43,7 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 
 ## 2016-11-16
 
-+ Sneeuw effect toegevoegd over de header, [credits effect](https://codepen.io/NickyCDK/pen/AIonk)
++ [Sneeuw effect](https://codepen.io/NickyCDK/pen/AIonk) toegevoegd over de header
 
 ## 2016-11-19
 
