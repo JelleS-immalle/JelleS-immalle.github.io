@@ -17,7 +17,7 @@
 
 ## 2016-11-8
 
-+ Toevoeging van regen effect. [Credits regen effect](https://codepen.io/alemesre/pen/hAxGg) !vervangen door [een ander effect](https://codepen.io/NickyCDK/pen/AIonk)
++ Toevoeging van [regen effect](https://codepen.io/alemesre/pen/hAxGg). !vervangen door [een ander effect](https://codepen.io/NickyCDK/pen/AIonk)
 
 ## 2016-11-9
 
