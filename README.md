@@ -90,6 +90,9 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 ## 2016-12-2
 
 + Tekstje Pure.css toegevoegd
++ Foto IT-Tapa toegevoegd
++ Zelfevaluatie toegevoegd
++ Aanpassing opmaak titels in taken.html
 
 ### Informatie over [Pure.css](http://purecss.io/)
 

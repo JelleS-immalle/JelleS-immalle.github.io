@@ -84,6 +84,21 @@ header:hover{
     }
 }
 
+@media screen and (max-width: 600px){
+    .middenGip-1-4-taak > h1{
+        font-size: 28px !important;
+        letter-spacing: default !important;
+    }
+    .middenGip-1-4-taak-vergroot > h1{
+        font-size: 28px !important;
+        letter-spacing: default !important;
+    }
+    #onderGip > h1{
+        font-size: 28px !important;
+        letter-spacing: default !important;
+    }
+}
+
 #headerGip-Text{
 	padding: 0.15em;
 	text-align: center;
@@ -92,6 +107,7 @@ header:hover{
 	color: rgba(144, 204, 144, 1);
 	text-shadow: 2px 2px #000;
 	font-size: 50px;
+    cursor: default;
 }
 #footerGip{
 	display: inline-block;
@@ -111,6 +127,7 @@ header:hover{
 	color: #222;
 	text-shadow: 2px 2px #90CC90;
 	font-size: 20px;
+    cursor: default;
 }
 #profielFoto{
 	width: 200px;
@@ -235,12 +252,15 @@ header:hover{
 	overflow: hidden;
 }
 .middenGip-1-4-taak > h1{
-	cursor: pointer;
-    font-family: Oswald;
-    margin: 1em auto;
-    text-align: justify;
-    -moz-text-align-last: center;
-    text-align-last: center;
+    cursor: pointer;
+    padding: 0.15em;
+    margin: 0.35em;
+    text-align: center;
+    font-family: Bangers;
+    letter-spacing: 2px;
+    color: #C3C3C3;
+    text-shadow: 2px 2px #000;
+    font-size: 50px;
 }
 .middenGip-1-4-taak > p{
 	height: 0;
@@ -253,15 +273,10 @@ header:hover{
     opacity: 0;
 }
 .middenGip-1-4-taak > img{
-    display: block;
-    margin: auto;
-    min-width: 15%;
-    min-height: 15%;
-    height: auto;
-    max-height: 30%;
-    max-width: 30%;
-    width: auto;
-    border: 2px solid #C3C3C3;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    opacity: 0;
 }
 .middenGip-1-4-taak > video{
     display: block;
@@ -272,14 +287,24 @@ header:hover{
 }
 .middenGip-1-4-taak-vergroot{
     overflow: hidden;
+
+
+    opacity: 1;
+    transition: opacity 2s ease-out;
+    -ms-transition: opacity 2s ease-out;
+    -moz-transition: opacity 2s ease-out;
+    -webkit-transition: opacity 2s ease-out;
 }
 .middenGip-1-4-taak-vergroot > h1{
 	cursor: pointer;
-    font-family: Oswald;
-    margin: 1em auto;
-    text-align: justify;
-    -moz-text-align-last: center;
-    text-align-last: center;
+    padding: 0.15em;
+    margin: 0.35em;
+    text-align: center;
+    font-family: Bangers;
+    letter-spacing: 2px;
+    color: #C3C3C3;
+    text-shadow: 2px 2px #000;
+    font-size: 50px;
 }
 .middenGip-1-4-taak-vergroot > p{
     font-family: Oswald;
@@ -303,7 +328,13 @@ header:hover{
     max-height: 50%;
     max-width: 50%;
     width: auto;
-    border: 2px solid #C3C3C3;
+    border: 0.1em solid #C3C3C3;
+
+    opacity: 1;
+    transition: opacity 2s ease-out;
+    -ms-transition: opacity 2s ease-out;
+    -moz-transition: opacity 2s ease-out;
+    -webkit-transition: opacity 2s ease-out;
 }
 .middenGip-1-4-taak-vergroot > video{
     visibility: visible;
@@ -315,7 +346,7 @@ header:hover{
     min-width: 40%;
     height: auto;
     width: auto;
-    border: rgba(144, 204, 144, 1) solid 0.1em;
+    border: #C3C3C3 solid 0.1em;
 
     opacity: 1;
     transition: opacity 2s ease-out;
@@ -387,4 +418,28 @@ header:hover{
 .onderGip-1 > p{
     font-family: Oswald;
     margin: 0.5em 3em;
+}
+
+#Zelfevaluatie{
+    margin: 0.5em auto;
+}
+#onderGip > #Zelfevaluatie > blockquote{
+    font-family: Oswald;
+}
+
+blockquote{
+    background: #FFF;
+    border-left: 10px solid rgba(144, 204, 144, 1);
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
