@@ -98,4 +98,9 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 
 > Ik heb gekozen om Pure.css te gebruiken voor het grootste deel van de lay-out van mijn website. De .css-bestanden zijn niet te groot, wat er onder anderen voor zorgt dat de website zo weinig mogelijk vertraagd wordt wanneer alles wordt geladen. Natuurlijk koos ik ook Pure.css omdat ik het makkelijk te gebruiken en aan te passen vind. Met Pure.css voeg je makkelijk en snel een goedwerkende structuur toe aan je website, die je altijd naar wens kan aanpassen. Over het algemeen ben ik dus tevreden wat Pure.css aanbied en voorlopig ben ik niet van plan om over te schakelen op een andere manier om de layout van mijn website te bewerken.
 
+## 2016-12-15
+
++ Toevoeging omschrijving van onderwerp IT-Tapa
++ Toevoeging link IT-Tapa Facebookpagina
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
