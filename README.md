@@ -103,4 +103,14 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 + Toevoeging omschrijving van onderwerp IT-Tapa
 + Toevoeging link IT-Tapa Facebookpagina
 
+## 2017-01-16
+
+++ Toevoeging stageverslag 2017-01-16
+
+## 2017-01-17
+
+++ Toevoeging stageverslag 2017-01-17
+++ Aanpassing van de volgorde van het menu
+++ Fout dat het menu op verschillende pagina's een andere margin/padding heeft opgelost.
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)

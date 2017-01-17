@@ -33,7 +33,13 @@
 		<h1><i class="fa fa-arrow-down" aria-hidden="true"></i> Dag 1<i class="fa fa-arrow-down" aria-hidden="true"></i></h1>
 		<p>Uitleg over algemene taak:<br>Soort script schrijven dat elke dag van de webpagina samen met de database een backup maakt. Hosting gebeurt op Plesk en de backup zou opgeslagen moeten worden op Amazon S3.<br><br>Geïnstalleerde tools hiervoor:<br>Putty, dit is het programma dat je een console geeft waarmee je aanpassingen kan maken op je Plesk host.<br><br>AWS Command Line Interface (CLI) geïnstalleerd en een gebruiker geconfigureerd:<br>Gebruikte tool => Putty.<br><br>Informatie opgezocht over de mogelijke manieren om een backup te maken van alle website documenten</p>
 	</div>
-</div>  
+    <div id="vergrootVerklein3" onclick="vergrootVerklein(this.id)" class="pure-u-1 middenGip-1-4-taak">
+		<h1><i class="fa fa-arrow-down" aria-hidden="true"></i> Dag 2<i class="fa fa-arrow-down" aria-hidden="true"></i></h1>
+        <p>Verder gezocht naar een oplossing voor de code van gisteren namiddag.
+<br><br>Niet alles kan in één keer gedaan worden, zoals de code hierboven. Om de backup te verplaatsen van de SSH en dan door te sturen naar de AWS cloud, moet er met meerdere stappen gewerkt worden.<br><br>Zippen van de mappen met essentiële bestanden en exporteren van database op de host.<br><br>http-bestanden:<br>
+tar -zcv sitebackup_blockpress.io_"datum".tar.gz /var/www/vhosts/blockpress.io/httpdocs<br><br>database:<br>[NIETS VOOR GEVONDEN VANDAAG]<br><br>Het gezipte bestand van de host naar de desktop van de lokale computer sturen.<br><br>http-bestanden:<br>pscp jelle@jelle.wappla.com:/var/www/_backups/sitebackup_blockpress.io_2017-01-16.tar %USERPROFILE%\Desktop<br><br>database:<br>pscp jelle@jelle.wappla.com:/var/www/_backups/naamBackup.sql %USERPROFILE%\Desktop<br><br>De database en het gezipte bestand met alle http bestanden uploaden naar de AWS.<br><br>http-bestanden:<br>aws s3 cp sitebackup_blockpress.io_”datum”.tar s3://wappla-jelle-backups<br><br>database:<br>aws s3 cp wordpress_e.sql s3://wappla-jelle-backups</p>
+	</div>
+</div>
     
 <footer id="footerGip">
 	<p id="footerGip-Text">GIP website&nbsp;2016</p>
