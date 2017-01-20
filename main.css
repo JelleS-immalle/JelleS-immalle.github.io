@@ -319,6 +319,16 @@ header:hover{
     -moz-transition: opacity 2s ease-out;
     -webkit-transition: opacity 2s ease-out;
 }
+.middenGip-1-4-taak-vergroot > p > code {
+    font-size: 0.8em;
+    text-align: left;
+    text-align-last:left;
+    background-color: lightgray;
+    display: inline-block;
+    width: 100%;
+    padding: 0.3em 0.5em;
+    border: 0.15em solid rgb(144, 204, 144);
+}
 .middenGip-1-4-taak-vergroot > img{
     display: block;
     margin: auto;

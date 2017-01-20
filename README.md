@@ -113,4 +113,9 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 ++ Aanpassing van de volgorde van het menu
 ++ Fout dat het menu op verschillende pagina's een andere margin/padding heeft opgelost.
 
+## 2017-01-20
+
+++ Opmaak toegevoegd voor code elementen
+++ Toevoeging stageverslag 2017-01-18/19/20
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
