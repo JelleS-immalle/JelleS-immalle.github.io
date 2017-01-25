@@ -374,7 +374,7 @@ header:hover{
     }
 }
 
-#vergrootVerklein2 > p, p > a{
+#vergrootVerklein2 > p, p a, #vergrootVerklein10 > p > a{
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
