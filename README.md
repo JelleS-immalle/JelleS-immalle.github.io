@@ -118,4 +118,12 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 + Opmaak toegevoegd voor code elementen
 + Toevoeging stageverslag 2017-01-18/19/20
 
+## 2017-01-25
+
++ Toevoeging stageverslagen 2017-01-23/24/25
+
+## 2017-01-26
+
++ Aanpassing van het font dat gebruikt wordt in de teksten
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)

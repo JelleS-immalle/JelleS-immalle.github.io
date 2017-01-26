@@ -148,7 +148,7 @@ header:hover{
 	margin: 1em auto;
 }
 .middenGip-1 > p{
-    font-family: Oswald;
+    font-family: Oxygen;
     margin: 0;
     padding: 1em 12em;
     text-align: justify;
@@ -164,7 +164,7 @@ header:hover{
 .middenGip-1-3 > p{
 	margin: 1em 0em;
 	font-size: 17px;
-	font-family: Oswald;
+	font-family: Oxygen;
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
@@ -230,7 +230,7 @@ header:hover{
 	overflow-x: hidden;
 }
 .middenGip-1-4 > p{
-    font-family: Oswald;
+    font-family: Oxygen;
     margin: 1em 0em;
     text-align: justify;
     -moz-text-align-last: center;
@@ -264,7 +264,7 @@ header:hover{
 }
 .middenGip-1-4-taak > p{
 	height: 0;
-    font-family: Oswald;
+    font-family: Oxygen;
     margin: 0;
     padding: 0em 4em;
     text-align: justify;
@@ -307,7 +307,7 @@ header:hover{
     font-size: 50px;
 }
 .middenGip-1-4-taak-vergroot > p{
-    font-family: Oswald;
+    font-family: Oxygen;
     margin: 0;
     padding: 1em 12em;
     text-align: justify;
@@ -400,7 +400,7 @@ header:hover{
 
 #onderGip > table {
     margin: 1em auto;
-    font-family: Oswald;
+    font-family: Oxygen;
 }
 
 #onderGip > h1{
@@ -426,7 +426,7 @@ header:hover{
 }
 
 .onderGip-1 > p{
-    font-family: Oswald;
+    font-family: Oxygen;
     margin: 0.5em 3em;
 }
 
@@ -434,7 +434,7 @@ header:hover{
     margin: 0.5em auto;
 }
 #onderGip > #Zelfevaluatie > blockquote{
-    font-family: Oswald;
+    font-family: Oxygen;
 }
 
 blockquote{

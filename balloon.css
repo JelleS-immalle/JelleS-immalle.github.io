@@ -31,7 +31,7 @@ button[data-balloon] {
   color: #CCC;
   content: attr(data-balloon);
   font-size: 20px;
-  font-family: Oswald;
+  font-family: Oxygen;
   padding: .5em 1em;
   letter-spacing: 1.5px;
   white-space: nowrap;
