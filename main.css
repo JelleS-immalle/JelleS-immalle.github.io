@@ -74,7 +74,6 @@ header:hover{
     i{
         visibility: :hidden;
         position: relative;
-        left: 9999px;
     }
 }
 
@@ -96,6 +95,12 @@ header:hover{
     #onderGip > h1{
         font-size: 28px !important;
         letter-spacing: default !important;
+    }
+    .middenGip-1-4-taak-vergroot > p{
+        font-size: 0.8em;
+    }
+    .middenGip-1 > p{
+        font-size: 0.8em;
     }
 }
 

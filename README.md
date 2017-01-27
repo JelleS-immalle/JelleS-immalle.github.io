@@ -111,7 +111,7 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 
 + Toevoeging stageverslag 2017-01-17
 + Aanpassing van de volgorde van het menu
-+ Fout dat het menu op verschillende pagina's een andere margin/padding heeft opgelost.
++ Fout dat het menu op verschillende pagina's een andere margin/padding heeft opgelost
 
 ## 2017-01-20
 
@@ -125,5 +125,11 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 ## 2017-01-26
 
 + Aanpassing van het font dat gebruikt wordt in de teksten
+
+## 2017-01-27
+
++ Issue #11 opgelost => Geen overige padding, maar element dat werd weggewerkt
++ Optimalisatie van font-size voor mobiele apparaten
++ Update opmaak stageverslagen
 
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
