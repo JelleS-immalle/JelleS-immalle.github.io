@@ -131,5 +131,6 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 + Issue #11 opgelost => Geen overige padding, maar element dat werd weggewerkt
 + Optimalisatie van font-size voor mobiele apparaten
 + Update opmaak stageverslagen
++ Toevoeging stageverslagen 2017-01-26/27
 
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
