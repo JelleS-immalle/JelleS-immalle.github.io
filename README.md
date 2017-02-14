@@ -133,4 +133,8 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 + Update opmaak stageverslagen
 + Toevoeging stageverslagen 2017-01-26/27
 
+## 2017-02-14
+
++ Toevoeging huisstijl stagebedrijf
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
