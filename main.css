@@ -327,6 +327,13 @@ header:hover{
     visibility: hidden;
     opacity: 0;
 }
+.middenGip-1-4-taak > iframe{
+    display: block;
+    margin: auto;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+}
 .middenGip-1-4-taak-vergroot{
     overflow: hidden;
 
@@ -399,6 +406,17 @@ header:hover{
     height: auto;
     width: auto;
     border: #C3C3C3 solid 0.1em;
+
+    opacity: 1;
+    transition: opacity 2s ease-out;
+    -ms-transition: opacity 2s ease-out;
+    -moz-transition: opacity 2s ease-out;
+    -webkit-transition: opacity 2s ease-out;
+}
+.middenGip-1-4-taak-vergroot > iframe{
+    visibility: visible;
+    display: block;
+    margin: auto;
 
     opacity: 1;
     transition: opacity 2s ease-out;

@@ -141,5 +141,6 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 
 + Kleine ongelijkheden opgelost
 + Toevoeging fotoreportage van de stage
++ Toevoeging review van een software tool die gebruikt werd tijdens de stage
 
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
