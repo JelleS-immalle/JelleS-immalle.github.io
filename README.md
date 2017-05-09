@@ -143,4 +143,10 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 + Toevoeging fotoreportage van de stage
 + Toevoeging review van een software tool die gebruikt werd tijdens de stage
 
+## 2017-05-09
+
++ Aanpassing header effect naar iets dat meer past bij het seizoen
++ Aanvulling info pagina onderaan (PHP, MySQL en Laravel)
++ Aanvulling info pagina link naar repository web-applicatie
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
