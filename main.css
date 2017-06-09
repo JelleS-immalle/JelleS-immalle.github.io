@@ -311,23 +311,26 @@ header:hover{
     text-align: justify;
     -moz-text-align-last: center;
 
+    display: none;
     opacity: 0;
 }
 .middenGip-1-4-taak > img{
     visibility: hidden;
+    display: none;
     height: 0;
     width: 0;
     opacity: 0;
+    margin: 0;
 }
 .middenGip-1-4-taak > video{
-    display: block;
+    display: none;
     margin: auto;
     height: 0;
     visibility: hidden;
     opacity: 0;
 }
 .middenGip-1-4-taak > iframe{
-    display: block;
+    display: none;
     margin: auto;
     height: 0;
     visibility: hidden;
@@ -335,7 +338,6 @@ header:hover{
 }
 .middenGip-1-4-taak-vergroot{
     overflow: hidden;
-
 
     opacity: 1;
     transition: opacity 2s ease-out;

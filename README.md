@@ -149,4 +149,10 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 + Aanvulling info pagina onderaan (PHP, MySQL en Laravel)
 + Aanvulling info pagina link naar repository webapplicatie
 
+## 2017-06-09
+
++ Toevoeging zelfevaluatie GIP SEM 2
++ Aanpassing CSS zodat images geen plaats meer innemen wanneer ze op onzichtbaar staan
++ Toevoeging previews van webapplicatie
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
