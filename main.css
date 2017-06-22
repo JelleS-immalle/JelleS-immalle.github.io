@@ -458,6 +458,13 @@ header:hover{
     color: inherit;
     text-decoration: inherit;
 }
+#vergrootVerklein6{
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    color: inherit;
+    text-decoration: inherit;
+}
 #onderGip > table {
     margin: 1em auto;
     font-family: Oxygen;

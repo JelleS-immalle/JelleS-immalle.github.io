@@ -155,4 +155,8 @@ Door het gebruik van WebKit extensions worden er verschillende dingen aangepast 
 + Aanpassing CSS zodat images geen plaats meer innemen wanneer ze op onzichtbaar staan
 + Toevoeging previews van webapplicatie
 
+## 2017-06-22
+
++ Toevoeging documentatie testopstelling Microsoft StaffHub
+
 [Als u mijn website wenst te bezoeken, klik dan hier.](https://jelles-immalle.github.io)
